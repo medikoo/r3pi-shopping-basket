@@ -1,0 +1,10 @@
+{
+  "name": "r3pi-shop",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
+  "dependencies": {
+    "cli-color": "^1.2"
+  },
+  "license": "MIT"
+}

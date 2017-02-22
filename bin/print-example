@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+'use strict';
+
+Error.stackTraceLimit = Infinity;
+
+var tariff       = require('../tariff')
+  , printReceipt = require('../print-receipt');
+
+printReceipt(new Map([
+	[tariff.apple, 3],
+	[tariff.orange, 2],
+	[tariff.garlic, 1],
+	[tariff.papaya, 7]
+]));
